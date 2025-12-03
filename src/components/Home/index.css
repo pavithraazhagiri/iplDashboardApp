@@ -1,0 +1,14 @@
+.home-bg-container {
+  background-color: #1e293b;
+  min-height: 100vh;
+}
+.home-heading-container {
+  display: flex;
+}
+.teams-container {
+  width: 80%;
+}
+.teams-matchcard-container {
+  display: flex;
+  flex-wrap: wrap;
+}

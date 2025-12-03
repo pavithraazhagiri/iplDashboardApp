@@ -1,0 +1,11 @@
+.match-card-container {
+  display: flex;
+  width: 50%;
+}
+.team-logo {
+  width: 80px;
+}
+.team-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
