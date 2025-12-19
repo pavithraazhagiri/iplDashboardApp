@@ -1,1 +1,32 @@
-/* Write your CSS here */
+.team-matches-container {
+  background-color: #1e293b;
+  padding: 30px;
+}
+.team-banner-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.back-button {
+  width: 60px;
+  background-color: #6363d7;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 13px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.latest-matches-heading {
+  color: white;
+  font-family: 'Bree seriff';
+  font-size: 17px;
+  margin-top: 20px;
+}
+.latest-matches-ul-list {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

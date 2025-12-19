@@ -1,3 +1,102 @@
-.latest-match-container {
+@media (max-width: 767px) {
+  .latest-match-container-small-devices {
+    display: flex;
+    flex-direction: column;
+    background-color: #131426;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    font-family: 'Bree seriff';
+  }
+}
+.latest-match-container-small-devices-top-container {
   display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .latest-match-container-small-devices {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .latest-match-container-medium-large-devices {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .latest-match-container-medium-large-devices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131426;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    font-family: 'Bree seriff';
+  }
+}
+.latest-match-left-container {
+  width: 40%;
+}
+@media (max-width: 767px) {
+  .latest-match-left-container {
+    flex-grow: 1;
+  }
+}
+.latest-match-competing-team {
+  font-size: 33px;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .latest-match-competing-team {
+    font-size: 20px;
+  }
+}
+.latest-match-competing-date {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .latest-match-competing-date {
+    font-size: 15px;
+  }
+}
+.latest-match-middle-container {
+  width: 20%;
+}
+@media (max-width: 767px) {
+  .latest-match-middle-container {
+    flex-grow: 1;
+  }
+}
+.competing-team-logo {
+  width: 100%;
+}
+.latest-match-right-container {
+  text-align: right;
+  width: 40%;
+}
+@media (max-width: 767px) {
+  .latest-match-right-container {
+    text-align: left;
+  }
+}
+.latest-match-right-heading {
+  font-size: 23px;
+}
+@media (max-width: 767px) {
+  .latest-match-right-heading {
+    font-size: 16px;
+  }
+}
+.latest-match-right-description {
+  font-size: 16px;
+}
+@media (max-width: 767px) {
+  .latest-match-right-description {
+    font-size: 12px;
+  }
+}
+.small-devices-line {
+  width: 100%;
 }

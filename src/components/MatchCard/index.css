@@ -1,0 +1,73 @@
+.each-match-card-container {
+  background-color: #131426;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .each-match-card-container {
+    width: 35vw;
+  }
+}
+@media (min-width: 768px) {
+  .each-match-card-container {
+    width: 30vw;
+  }
+}
+.each-match-card-logo {
+  height: 100px;
+  width: 100px;
+  flex-grow: 1;
+}
+@media (max-width: 767px) {
+  .each-match-card-logo {
+    height: 50px;
+    width: 50px;
+  }
+}
+.each-match-card-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  flex-grow: 1;
+}
+@media (max-width: 767px) {
+  .each-match-card-heading {
+    font-size: 15px;
+  }
+}
+.each-match-card-result {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  flex-grow: 1;
+}
+@media (max-width: 767px) {
+  .each-match-card-result {
+    font-size: 10px;
+  }
+}
+.each-match-card-status {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+  flex-grow: 1;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .each-match-card-status {
+    font-size: 15px;
+  }
+}
+.lost {
+  color: red;
+}
+.won {
+  color: green;
+}

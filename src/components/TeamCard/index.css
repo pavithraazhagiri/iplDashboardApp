@@ -1,11 +1,50 @@
 .match-card-container {
   display: flex;
-  width: 50%;
+  width: 40%;
+  border: 1px solid rgb(196, 193, 193);
+  border-radius: 5px;
+  margin: 10px;
+  flex-grow: 1;
 }
-.team-logo {
-  width: 80px;
+@media (max-width: 767px) {
+  .match-card-container {
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .match-card-container {
+    padding: 20px;
+  }
+}
+.match-card-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .team-logo {
+    width: 40px;
+    margin-right: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .team-logo {
+    width: 80px;
+    margin-right: 20px;
+  }
 }
 .team-name {
   font-family: 'Roboto';
-  font-size: 20px;
+  color: white;
+}
+@media (max-width: 767px) {
+  .team-name {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .team-name {
+    font-size: 20px;
+  }
 }

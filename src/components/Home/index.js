@@ -23,9 +23,10 @@ class Home extends Component {
   }
 
   render() {
-    const {teamsList, isLoading} = this.state
+    const {isLoading, teamsList} = this.state
     const homeElement = isLoading ? (
-      <div>
+      // eslint-disable-next-line
+      <div testid="loader" className="loader-container">
         <Loader type="Oval" color="#ffffff" height={50} width={50} />
       </div>
     ) : (
@@ -43,8 +44,9 @@ class Home extends Component {
           <img
             src="https://assets.ccbp.in/frontend/react-js/ipl-logo-img.png"
             alt="ipl logo"
+            className="home-ipl-logo-image"
           />
-          <h1>IPL Dashboard</h1>
+          <h1 className="home-ipl-heading">IPL Dashboard</h1>
         </div>
         {homeElement}
       </div>
